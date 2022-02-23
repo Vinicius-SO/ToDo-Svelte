@@ -1,12 +1,19 @@
 <script>
-  import Counter from './lib/Counter.svelte'
+  import SideBar from './components/sideBar.svelte';
+import Counter from './components/sideBar.svelte'
 </script>
 
 <main>
-  <Counter></Counter>
-  <Counter></Counter>
+  <SideBar></SideBar>
 </main>
 
 <style>
- 
+ :global(*){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ main{
+   background-color: #E5E5E5;
+ }
 </style>
