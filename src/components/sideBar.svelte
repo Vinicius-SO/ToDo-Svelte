@@ -15,7 +15,7 @@
     main{
         width: 15%;
         height: 100vh;
-        background-color: bisque;
+        background-color: #ffff;
     }
   
 </style>
